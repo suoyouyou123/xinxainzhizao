@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body, .container {
+  width: 100%;
+  height: 100%; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  position: relative; }
+  .container section .h2 {
+    height: 35px;
+    background: #fff;
+    line-height: 35px;
+    text-align: center;
+    font-size: 16px; }
+    .container section .h2 a {
+      float: left;
+      padding-left: 5px; }
+      .container section .h2 a img {
+        width: 14px;
+        height: 18px;
+        background-size: 14px 18px; }
+  .container .test {
+    width: 90%;
+    height: 66%;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    margin: 0 auto;
+    z-index: 20;
+    background: url(../img/tan.png) no-repeat;
+    background-size: 100% 100%; }
+    .container .test span {
+      position: absolute;
+      right: 6%;
+      top: 0%; }
+      .container .test span img {
+        width: 41px;
+        height: 41px;
+        background-size: 100% 100%; }
+    .container .test h4 {
+      width: 80px;
+      height: 30px;
+      position: absolute;
+      left: 28%;
+      top: 80%; }
+      .container .test h4 img {
+        width: 145px;
+        height: 61px;
+        background-size: 100% 100%; }
+
+.index {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  position: relative;
+  background: url(../img/index.png) no-repeat;
+  background-size: 100% 100%; }
+  .index section {
+    -webkit-box-flex: 1; }
+    .index section span {
+      position: absolute;
+      left: 38%;
+      bottom: 6%; }
+      .index section span img {
+        width: 100px;
+        height: 50px;
+        background-size: 100% 100%; }
+
+.title {
+  height: 40px;
+  background: #000;
+  position: relative;
+  color: #fff;
+  line-height: 40px; }
+  .title h1 {
+    font-size: 16px;
+    text-align: center; }
+  .title a {
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    font-size: 14px;
+    color: #fff;
+    background: url(../img/header_btn.png) no-repeat left;
+    background-size: 13px 18px;
+    padding-left: 20px; }
+  .title span {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    background: url(../img/nav1.png) no-repeat;
+    background-size: 100% 100%;
+    width: 30px;
+    height: 12px; }
+
+.container .sex {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  background: #f6514b; }
+  .container .sex #nextBtns {
+    position: absolute;
+    left: 30%;
+    bottom: 30%;
+    z-index: 20;
+    width: 120px;
+    height: 40px;
+    background-size: 100% 100%; }
+  .container .sex section {
+    -webkit-box-flex: 1;
+    position: relative; }
+    .container .sex section .sex_box {
+      position: absolute;
+      width: 90%;
+      margin: 50px auto; }
+      .container .sex section .sex_box img {
+        width: 300px;
+        height: 504px;
+        background-size: 330px 504px; }
+    .container .sex section h3 {
+      position: absolute;
+      left: 33%;
+      top: 23%;
+      font-size: 14px;
+      color: #bc422f; }
+  .container .sex .sex_cho {
+    width: 60%;
+    height: 20%;
+    position: absolute;
+    left: 20%;
+    top: 31%;
+    margin: 0 auto;
+    z-index: 140;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal; }
+    .container .sex .sex_cho dl {
+      -webkit-box-flex: 1;
+      text-align: center;
+      height: 120px; }
+      .container .sex .sex_cho dl dt {
+        width: 55px;
+        height: 80px; }
+        .container .sex .sex_cho dl dt img {
+          width: 55px;
+          height: 80px;
+          margin-left: 20px;
+          background-size: 55px 80px; }
+      .container .sex .sex_cho dl dd {
+        -webkit-box-flex: 1;
+        /*p{
+        	img{
+        		width:20px;
+        		height:20px;
+        		background-size:100% 100%;
+        	}
+        }*/ }
+        .container .sex .sex_cho dl dd span {
+          font-size: 12px;
+          line-height: 30px; }
+        .container .sex .sex_cho dl dd p {
+          width: 20px;
+          height: 20px;
+          background: url(../img/page2_2.png) no-repeat;
+          margin-left: 40px;
+          background-size: 100% 100%; }
+        .container .sex .sex_cho dl dd .one {
+          background: url(../img/page2_1.png) no-repeat;
+          margin-left: 40px;
+          background-size: 100% 100%; }
+
+.choose {
+  width: 100%;
+  height: 100%;
+  background: url(../img/page_bg_r1_c1.png) no-repeat;
+  background-size: 100% 100%;
+  text-align: center; }
+  .choose h3 {
+    height: 30px;
+    font-size: 16px;
+    padding-top: 110px;
+    line-height: 41px;
+    color: #b00600; }
+  .choose p {
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    left: 34%;
+    top: 73%; }
+    .choose p img {
+      width: 110px;
+      height: 40px;
+      background-size: 100% 100%; }
+  .choose nav {
+    height: 40px;
+    width: 80%;
+    position: relative;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    line-height: 40px; }
+    .choose nav a {
+      width: 48%;
+      font-size: 14px;
+      position: absolute;
+      display: block;
+      background: url(../img/page2_2.png) no-repeat 25px center;
+      background-size: 25px 25px; }
+      .choose nav a:first-child {
+        width: 48%;
+        left: 14%;
+        top: 16%; }
+      .choose nav a:last-child {
+        width: 48%;
+        right: -13%;
+        top: 16%; }
+    .choose nav .one {
+      width: 25px;
+      height: 30px;
+      padding-right: 10px;
+      background: url(../img/page2_1.png) no-repeat 25px 8px;
+      background-size: 25px 25px; }
+  .choose ul {
+    width: 60%;
+    height: 60px;
+    margin: 0 auto; }
+    .choose ul li {
+      float: left;
+      border: 1px solid #000;
+      list-style: none;
+      padding: 4px 10px;
+      margin: 5px 5px;
+      color: #333333;
+      height: 15px;
+      font-size: 14px; }
+
+.choose_2 {
+  width: 100%;
+  height: 100%;
+  background: url(../img/page_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative; }
+  .choose_2 h3 {
+    height: 41px;
+    font-size: 16px;
+    padding-top: 30px;
+    line-height: 41px;
+    color: #b00600;
+    text-align: center; }
+  .choose_2 p {
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    left: 35%;
+    bottom: 22%;
+    background: url(../img/bg_btn.png) no-repeat;
+    background-size: 100% 100%;
+    color: #b00600;
+    font-weight: bold;
+    line-height: 35px;
+    padding-left: 25px; }
+  .choose_2 ul {
+    width: 65%;
+    height: 60px;
+    margin: 0 auto;
+    padding-left: 20px; }
+    .choose_2 ul li {
+      width: 50%;
+      float: left;
+      height: 45px;
+      line-height: 45px;
+      list-style: none;
+      color: #333333;
+      font-size: 14px; }
+      .choose_2 ul li span {
+        padding-left: 15px; }
+
+.mark {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100000; }
+
+.choose_2bg {
+  background: url(../img/p4_mark_bg.png) no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%; }
+
+.choose_3 {
+  width: 100%;
+  height: 100%;
+  background: url(../img/p5_replyBg.png) no-repeat;
+  background-size: 100% 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  position: relative;
+  overflow: hidden; }
+  .choose_3 h3 {
+    height: 41px;
+    font-size: 16px;
+    padding-top: 55px;
+    line-height: 41px;
+    color: #b00600;
+    text-align: center; }
+  .choose_3 p {
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    left: 39%;
+    bottom: -25%; }
+    .choose_3 p img {
+      width: 110px;
+      height: 40px;
+      background-size: 100% 100%; }
+  .choose_3 section {
+    -webkit-box-flex: 1; }
+    .choose_3 section #item {
+      display: -webkit-box;
+      -webkit-box-orient: horizontal;
+      overflow: hidden; }
+    .choose_3 section .item {
+      width: 87%;
+      padding-top: 20px;
+      position: absolute;
+      left: 100%;
+      top: 73px;
+      height: 60%;
+      margin: 0 auto; }
+      .choose_3 section .item:nth-child(1) {
+        left: 0; }
+      .choose_3 section .item div {
+        width: 100%;
+        padding-left: 10%; }
+        .choose_3 section .item div h6 {
+          font-size: 14px;
+          line-height: 20px;
+          padding-left: 18px;
+          background: url(../img/icon.png) no-repeat left center;
+          background-size: 15px 15px; }
+        .choose_3 section .item div ol {
+          width: 100%;
+          height: 40px; }
+          .choose_3 section .item div ol li {
+            width: 17%;
+            height: 22px;
+            float: left;
+            color: #8a877a;
+            text-align: center;
+            line-height: 22px;
+            font-size: 14px;
+            list-style: none;
+            border: 1px solid #8C835B;
+            border-radius: 5px 5px;
+            margin-right: 6px; }
+
+.choose_4 {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  backg-round-size: 100% 100%;
+  position: relative; }
+  .choose_4 h3 {
+    height: 41px;
+    font-size: 16px;
+    padding-top: 55px;
+    line-height: 41px;
+    color: #b00600;
+    text-align: center; }
+  .choose_4 dl {
+    width: 100%;
+    height: 150px;
+    background: #f6514b; }
+    .choose_4 dl dt {
+      width: 10%;
+      float: right; }
+      .choose_4 dl dt img {
+        padding-top: 67px; }
+    .choose_4 dl dd {
+      -webkit-box-flex: 1;
+      width: 70%;
+      float: left;
+      color: #fff;
+      padding-left: 15px; }
+      .choose_4 dl dd p {
+        padding-top: 30px; }
+      .choose_4 dl dd h4 {
+        font-size: 22px;
+        line-height: 40px; }
+      .choose_4 dl dd h6 {
+        font-weight: normal; }
+  .choose_4 h5 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+    color: #f6514b; }
+    .choose_4 h5 span {
+      float: right;
+      padding-right: 15px; }
+      .choose_4 h5 span img {
+        width: 22px;
+        height: 13px;
+        background-size: 100% 100%; }
+
+.choose .on, .choose_3 .on {
+  background: #f6514b;
+  color: #fff;
+  border: 1px solid #f6514b; }
+
+.mark {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .6;
+  z-index: 15;
+  background: #000; }
